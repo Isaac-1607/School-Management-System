@@ -1,0 +1,52 @@
+body {
+  padding-top: 70px; /* Espacio para que el navbar fijo no tape contenido */
+}
+
+.navbar-brand {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Espaciado para evitar que la barra fija tape el contenido */
+body {
+  padding-top: 70px;
+}
+
+/* Personalización de la barra de navegación */
+.navbar-brand {
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Carrusel */
+.carousel-item img {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.carousel-item img:hover {
+  transform: scale(1.05);
+}
+
+.carousel-item img {
+  width: 400%;       /* Hace que ocupe todo el ancho del carrusel */
+  height: 300px;     /* Define una altura fija */
+  object-fit: cover; /* Recorta la imagen para que se ajuste sin deformarse */
+}
+
+
+/* Tarjetas */
+.card {
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
